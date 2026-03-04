@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins"
+}
+
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+.section1 {
+    height: 100vh;
+    background-image: url(assets/back1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-inline: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header img {
+    height: 80px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+header ul li{
+    transition: .3s ease;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+}
+
+header ul li a:hover {
+    color: rgb(12, 12, 87);
+}
+
+header ul li:hover{
+    transform: translateY(-3px);
+
+}
+
+header ul button {
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.747);
+    color: white;
+    font-weight: 500;
+}
+
+.fa-bars{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: none;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.heroContent h1 {
+    color: rgb(17, 17, 77);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.heroContent h2 {
+    color: rgb(17, 17, 77);
+    font-weight: 500;
+    font-size: 30px
+}
+
+.heroContent h2 span {
+    font-weight: 600;
+}
+
+.heroContent p {
+    font-size: 17px;
+    color: rgb(27, 27, 27);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.buttons button {
+    padding: 7px 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+
+.learn {
+    background-color: rgb(25 91 207);
+}
+
+.learn:hover {
+    box-shadow: 0px 0px 20px rgb(25 91 207);
+    transform: translateY(-3px);
+}
+
+.Enroll {
+    background-color: rgba(255, 0, 0, 0.7);
+    transition: .3s ease;
+}
+
+.Enroll:hover {
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
+    transform: translateY(-3px);
+}
+
+
+/* section 2  */
+
+.section2 {
+    padding-inline: 40px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+}
+
+.section2 p {
+    font-size: 40px;
+    color: rgb(17, 17, 77);
+    font-weight: 500;
+}
+
+.facilities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.facility {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+}
+
+.facility p {
+    color: black;
+    font-size: 12px;
+}
+
+.levels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 10px;
+    box-shadow: 0px 0px 20px rgba(141, 139, 139, 0.61);
+    width: 340px;
+    height: max-content;
+    background-color: white;
+    padding-bottom: 10px;
+    transition: .3s ease;
+}
+
+.level:hover {
+    transform: translateY(-3px);
+}
+
+.level img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.level h4 {
+    color: rgb(17, 17, 77);
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.level p {
+    color: rgb(65, 64, 64);
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.level button {
+    padding: 7px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(21 59 125);
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    width: 300px;
+    align-self: center;
+}
+
+.life {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.lifeContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+
+.lifeContent h2 {
+    color: rgb(17, 17, 77);
+}
+
+.lifeContent p {
+    color: rgb(41, 40, 40);
+    font-size: 14px;
+}
+
+.lifeContent button {
+    padding: 7px 20px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.7);
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+.life1 {
+    height: 200px;
+    object-fit: cover;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.life2,
+.life3 {
+    width: 200px;
+    border-radius: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width:1100px) {
+    nav {
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+}
+
+@media (max-width: 750px) {
+    .section2 p {
+        font-size: 20px;
+        align-self: center;
+    }
+    .facility p{
+        font-size: 12px;
+    }
+
+    .heroContent h1 {
+        font-size: 35px;
+    }
+
+    .heroContent h2 {
+        font-size: 20px;
+    }
+    .section2 {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+    .buttons button {
+        font-size: 15px;
+    }
+
+    .heroContent h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 450px) {
+    .section1 {
+        padding-inline: 20px;
+    }
+    .buttons button{
+        padding: 7px 10px;
+    }
+    .level img{
+        height: 200px;
+    }
+    .level{
+        width: 250px;
+    }
+    .level button{
+        width: 200px;
+        font-size: 15px;
+    }
+    .level h4{
+        font-size: 20px;
+    }
+    .level p{
+        align-self: flex-start;
+    }
+    .lifeContent{
+        width: 250px;
+    }
+    header img{
+        height: 60px;
+    }
+}
