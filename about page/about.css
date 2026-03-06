@@ -1,0 +1,270 @@
+.heroContent p {
+    width: 500px;
+}
+
+.heroContent p span {
+    font-weight: 600;
+}
+
+.section3 {
+    padding-inline: 40px;
+    padding-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.section3 .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.mission h1 {
+    font-weight: 500;
+    color: rgb(17, 17, 77);
+}
+
+.mission p {
+    width: 600px;
+}
+
+.mission p span {
+    font-weight: 600;
+}
+
+.section3 .mission .images {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.section3 .mission .images img {
+    width: 300px;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.tradition {
+    width: 100%;
+}
+
+.tradition img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px
+}
+
+.tradition h1 {
+    color: rgb(17, 17, 77);
+    font-weight: 500;
+}
+
+.tradition p span {
+    font-weight: 600;
+}
+
+/* section 4  */
+.section4 {
+    padding-inline: 40px;
+    padding-top: 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    padding-inline: 40px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.number {
+    text-align: center;
+}
+
+.number h1 {
+    color: rgb(10 77 139);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.number p {
+    color: rgb(41, 40, 40);
+}
+
+.divider {
+    width: 1px;
+    height: 50px;
+    background-color: rgb(90, 90, 90);
+}
+
+.dedicatedTeam {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.Contact {
+    padding: 7px 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgba(255, 0, 0, 0.7);
+    transition: .3s ease;
+
+}
+
+.Contact:hover {
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
+    transform: translateY(-3px);
+}
+
+.team h1 {
+    color: rgb(17, 17, 77);
+    font-weight: 500;
+}
+
+.dedicatedTeam img {
+    height: 250px;
+    border-radius: 10px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.dedicatedTeam .team {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.dedicatedTeam .team p {
+    width: 400px;
+}
+
+.employes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.employContent {
+    background-color: white;
+    height: max-content;
+    width: 50%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.employImages {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.employImages img {
+    height: 200px;
+    object-fit: cover;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .section3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employes {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .dedicatedTeam {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .employContent {
+        width: 100%;
+    }
+
+    .employImages {
+        width: 100%;
+    }
+
+    .heroContent p {
+        width: 500px;
+    }
+
+    .numbers {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .divider {
+        width: 100px;
+        height: 1px;
+    }
+}
+
+@media (max-width: 650px) {
+    .section3 .mission .images {
+        flex-direction: column;
+    }
+
+    .section3 .mission {
+        align-items: center;
+    }
+
+    .mission p {
+        width: 300px;
+    }
+
+    .dedicatedTeam img {
+        width: 100%;
+    }
+
+    .tradition img {
+        width: 100%;
+    }
+
+    .heroContent p {
+        width: 304px;
+    }
+}
+
+@media (max-width:500px) {
+    .dedicatedTeam .team p {
+        width: 300px;
+    }
+
+    .team h1 {
+        font-size: 20px;
+    }
+}
