@@ -31,7 +31,7 @@ The goal of this project is to build a professional and informative online prese
 
 ## 🔜 Upcoming Features
 
-- About Us page
+- About Us page ✅
 - Admission form with validation
 - Faculty & staff section
 - Events / Notice board
