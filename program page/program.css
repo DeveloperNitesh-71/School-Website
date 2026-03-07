@@ -1,0 +1,147 @@
+
+
+.section1{
+    background-image: url(../assets/programback.png);
+}
+
+.heroContent p{
+    width: 500px;
+}
+
+.heroContent p span{
+    font-weight: 600;
+}
+
+.section2 h1{
+    font-weight: 500;
+    color: rgb(17,17,77);
+}
+
+.section2 p {
+    font-size: 16px;
+    color: #111;
+}
+
+.section2 p span{
+    font-weight: 600;
+}
+/* 
+.level p {
+    padding-right: 10px;
+} */
+
+.section6{
+    background-color: aliceblue;
+    padding-inline: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.text{
+    color: rgb(17,17,77);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.text .info h1{
+    font-weight: 500;
+}
+
+.info h2{
+    font-weight: 400;
+}
+
+.info p {
+    color: black    ;
+}
+
+.info p span {
+    font-weight: 600;
+}
+
+.activities{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.activity{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 10px;
+}
+
+.activity h4{
+    font-weight: 500;
+    color: rgb(17,17,77);
+}
+
+.activity p {
+    color: black;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+.card .othertext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-inline: 25px;
+}
+
+.othertext h2{
+    font-weight: 500;
+    color: rgb(17,17,77);
+}
+
+.othertext button{
+    padding: 7px 20px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.7);
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 250px;
+}
+
+@media (max-width: 700px){
+    .section6{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px) {
+    .heroContent p{
+        width: 300px;
+    }
+}
