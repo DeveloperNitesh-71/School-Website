@@ -1,0 +1,79 @@
+
+
+.section1{
+    background-image: url(../assets/back2.png);
+}
+
+.step{
+    justify-content: start;
+}
+
+.section10{
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    padding-bottom: 40px;
+}
+
+.subSection{
+    width: 50%;
+    padding: 0px 40px;
+}
+
+.subSection form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.subSection form input{
+    padding: 4px 15px;
+    outline: none;
+}
+
+.subSection form textarea{
+    height: 150px;
+    outline: none;
+    padding: 3px 15px;
+}
+
+.subSection form button{    
+    padding: 7px 30px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgba(255, 0, 0, 0.7);
+    transition: .3s ease;
+}
+
+.subSection img{
+    height: 310px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.socials img{
+    height: 45px;
+    width: 45px;
+}
+
+@media (max-width: 600px) {
+    .section10 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .subSection {
+        width: 100%;
+    }
+}
